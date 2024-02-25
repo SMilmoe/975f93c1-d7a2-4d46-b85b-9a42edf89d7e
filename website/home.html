@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Contact Us Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+            type="module"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"></script>
+</head>
+<body>
+<h8k-navbar header="Contact Us Form"></h8k-navbar>
+<div class="card w-50 mx-auto mt-50">
+    <h4 align="center" class="text-center pt-20">Fill your details</h4>
+    <section class="card-text">
+        <form action="" class="layout-column align-items-stretch mx-16">
+            <label class="form-hint" for="fname">First Name</label>
+            <input class="large" id="fname" name="contactFirstName" placeholder="Your first name" type="text">
+
+            <label class="form-hint mt-16" for="lname">Last Name</label>
+            <input class="large" id="lname" name="contactLastName" placeholder="Your last name" type="text">
+
+            <label class="form-hint mt-16">Email</label>
+            <input class="large" name="contactEmail" placeholder="Your email" type="text">
+
+            <div class="layout-row justify-content-center align-items-center mt-16 mb-30">
+                <label class="form-hint mb-0 text-uppercase font-weight-light mr-8">Gender</label>
+
+                <input checked class="ml-8 mr-4 mt-0" name="gender" type="radio" value="m">
+                <label>Male</label>
+
+                <input class="ml-8 mr-4 mt-0" name="gender" type="radio" value="f">
+                <label>Female</label>
+
+                <input class="ml-8 mr-4 mt-0" name="gender" type="radio" value="o">
+                <label>Other</label>
+            </div>
+
+            <button class="" type="submit" value="Send">Send</button>
+        </form>
+    </section>
+</div>
+</body>
+</html>
